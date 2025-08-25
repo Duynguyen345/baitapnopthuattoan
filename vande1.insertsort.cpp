@@ -34,7 +34,7 @@ int main(){
 		printf("\n");
 	printf("mang 2:\n");
 
-	for(int i=0;i<=8;i++){
+	for(int i=0;i<=7;i++){
 		printf(" %d",b[i]);
 	}
 }
