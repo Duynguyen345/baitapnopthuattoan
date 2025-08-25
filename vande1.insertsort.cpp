@@ -26,7 +26,7 @@ int main(){
 		printf("mang 1:\n");
 		insertsort(a,7);
 		printf("mang 2:\n");
-		insertsort(b,8);
+		insertsort(b,7);
 		printf("mang 1:\n");
 	for(int i=0;i<=7;i++){
 		printf(" %d",a[i]);

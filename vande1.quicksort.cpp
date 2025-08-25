@@ -25,7 +25,7 @@ int  patrition(int a[],int l,int r){
 void qsort(int a[],int l,int r){
 	if(l>=r) return;
 	int n = 1;
-	printf("buoc %d:\n",n);
+	printf("buoc %d:",n);
 	for(int i=0;i<=7;i++){
 		printf(" %d",a[i]);
 		n++;
@@ -43,7 +43,7 @@ int main(){
 		printf("mang 1:\n");
 		qsort(a,0,7);
 		printf("mang 2:\n");
-		qsort(b,0,8);
+		qsort(b,0,7);
 		printf("mang 1:\n");
 	for(int i=0;i<=7;i++){
 		printf(" %d",a[i]);
@@ -51,7 +51,7 @@ int main(){
 		printf("\n");
 	printf("mang 2:\n");
 
-	for(int i=0;i<=8;i++){
+	for(int i=0;i<=7;i++){
 		printf(" %d",b[i]);
 	}
 }
